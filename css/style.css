@@ -9,6 +9,36 @@ html {
 }
 
 /* Header */
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-header {
+  margin: 60px;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+}
+
+.menu-item {
+  margin: 12px;
+  margin-left: 70px;
+}
+
+.btn-header {
+  margin-top: 30px;
+  margin-left: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: -180px;
+  padding-bottom: -180px;
+  border-radius: 25px;
+}
+
 .title {
   font-family: "Be Vietnam", sans-serif;
   font-weight: 700;
